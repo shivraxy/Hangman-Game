@@ -1,0 +1,45 @@
+ h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 80px;
+        text-align: center;
+    }
+
+    #img_card {
+        width: 30%;
+        padding-left: 100px;
+    }
+
+    .card {
+        float: left;
+        width: 50%;
+        border: 0;
+    }
+
+    #userGuess {
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        display: block;
+    }
+
+    #picture {
+        height: 400px;
+        width: 400px;
+        display: block;
+    }
+
+    .panel {
+        padding: 0px;
+        margin-right: 100px;
+    }
+
+    .mainContent {
+
+        font-family: 'Pacifico', cursive;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .current {
+        color: green;
+    }

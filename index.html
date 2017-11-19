@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        HangMan
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/3.3/examples/sticky-footer/sticky-footer.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <h1>  </h1>
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Hangman</h1>
+        </div>
+    </section>
+    <section id="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="img_card">
+                        <div id="band_name" style="font-size: 20px; width:100%;font-family: 'Pacifico';"> Guess the Band !!!!</div>
+                        <img id="picture" src="https://store-images.s-microsoft.com/image/apps.64145.9007199266245445.c8284977-a6c7-4061-a185-6aa16c64f64a.b0c25089-bf79-43d5-a744-049e08ab6bfc?w=180&h=180&q=60" alt="HangMan" data-holder-rendered="true">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="mainContent"> Press any Key to get started </div>
+                            <div class="mainContent"> Wins : <span id="win"> </span> </div>
+                            <div class="mainContent"> Current Word <span class=".current" id="current"> </span></div>
+                            <div class="mainContent"> Number of guesses remaining: <span class=".current" id="noofguess"> </span></div>
+                            <div class="mainContent"> Letter already guessed: <span class=".current" id="alreadyguessed"> </span> </div>
+                        </div>
+                    </div>
+                    
+                   <audio id = "audio" autoplay>
+                        <source src="" type="audio/mp3">
+                    </audio>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <script  type="text/javascript" src=".\assets\javascript\game.js"> </script>  -->
+
+</body>
+
+</html>
